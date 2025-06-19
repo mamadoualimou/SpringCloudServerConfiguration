@@ -2,5 +2,8 @@ spring:
   application:
     name: lab-3-client
 
-lucky-word: "Serendipity"
+lucky-word:
+  - "Irish"
+  - "Rabbit's Foot"
+  - "Serendipity"
 
