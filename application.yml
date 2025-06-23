@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8010/eureka/, http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
 
 ---
 
@@ -9,12 +9,7 @@ spring:
   config:
     activate:
       on-profile: subject
-words: 
-  -I
-  -You
-  -He
-  -She
-  -It
+words: I,You,He,She,It
 
 ---
 
@@ -22,12 +17,7 @@ spring:
   config:
     activate:
       on-profile: verb
-words: 
-  -ran
-  -knew
-  -had
-  -saw
-  -bought
+words: ran,knew,had,saw,bought
 
 ---
 
@@ -35,9 +25,7 @@ spring:
   config:
     activate:
       on-profile: article
-words: 
-  -a
-  -the
+words: a,the
 
 ---
 
@@ -45,12 +33,7 @@ spring:
   config:
     activate:
       on-profile: adjective
-words: 
-  -reasonable
-  -leaky
-  -suspicious
-  -ordinary
-  -unlikely
+words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 
@@ -58,11 +41,4 @@ spring:
   config:
     activate:
       on-profile: noun
-words: 
-  -boat
-  -book
-  -vote
-  -seat
-  -backpack
-  -partition
-  -groundhog
+words: boat,book,vote,seat,backpack,partition,groundhog
